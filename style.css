@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: "Poppins", serif;
+    
+}
+.pantalla{
+
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    min-height: 800px;
+     
+}
+
+.pantalla-contenido{
+
+    height: 100%;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.pantalla-texto{
+    color: white;
+
+}
+
+.pantalla-titulo{
+
+    font-size: 3em;
+}
+
+.pantalla-parrafo{
+
+    line-height: 2;
+    margin: .5em 0;
+ 
+}
+
+.pantalla-boton{
+
+    text-decoration: none;
+    padding: 1em 2em;
+    color: #b371ed;
+    display: inline-block;
+    background-color: white;
+    border-radius: 30px 10px;
+
+    
+
+}
+
+.pantalla-foto{
+
+    width: 90%;
+    max-width: 400px;
+    margin: 0% auto;
+    margin-bottom: 40px;
+
+
+}
+
+
+.pantalla-img{
+
+
+    width: 100%;
+    display: block;
+
+}
+
+@media(min-width:768px){
+
+    .pantalla{
+        min-height: 300px;
+    }
+
+    .pantalla-contenido{
+
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .pantalla-foto{
+
+        width: 45%;
+        margin-bottom: 0%;
+        order: 1;
+    }
+
+    .pantalla-texto{
+
+        width: 50%;
+    }
+
+    .pantalla-titulo{
+ 
+        font-size: 3em;
+    }
+
+    .pantalla-parrafo{ 
+
+        margin: .5em 0 1em;
+    }
+
+}
+
+
+
